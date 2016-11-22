@@ -294,6 +294,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	
+}
 }
 
 header .intro-text {
@@ -310,8 +312,10 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
+	color : #fec503;
     margin-bottom: 25px;
     text-transform: uppercase;
+	text-shadow: 3px 2px 4px #000000;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -325,6 +329,8 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
+		color : #fec503;
+		text-shadow: 2px 2px 4px #000000;
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
@@ -373,7 +379,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item {
-    right: 0;
+    right: 1;
     margin: 0 0 15px;
 }
 
@@ -396,7 +402,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
+    opacity: 0;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {

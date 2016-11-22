@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Northeimer Stadtball in der Stadthalle</title>
+    <title>Northeimer Stadtball</title>
     <link>https://anoehre.github.io/Stadtball/index.xml</link>
-    <description>Recent content on Northeimer Stadtball in der Stadthalle</description>
+    <description>Recent content on Northeimer Stadtball</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Nov 2016 12:50:43 +0100</lastBuildDate>
     <atom:link href="https://anoehre.github.io/Stadtball/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>willkommen</title>
-      <link>https://anoehre.github.io/Stadtball/post/willkommen/</link>
-      <pubDate>Fri, 18 Nov 2016 12:50:43 +0100</pubDate>
-      
-      <guid>https://anoehre.github.io/Stadtball/post/willkommen/</guid>
-      <description>&lt;p&gt;Hallo!&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>

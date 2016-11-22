@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://anoehre.github.io/Stadtball/"
 languageCode = "en-us"
-title = "Northeimer Stadtball in der Stadthalle"
+title = "Northeimer Stadtball"
 theme = "hugo-agency-theme"
 relativeURLs = true
 canonifyURLs = true
@@ -66,7 +66,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Northeimer Stadtball in der Stadthalle"
+    brand = "Northeimer Stadtball"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Der Ball"
@@ -100,27 +100,27 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "Der Northeimer Stadtball am Freitag, dem 5. Februar 2016"
-    subtitle = "Am 5. Februar 2016 wird die Tradition der großen Bälle fortgeführt. Tanzen und feiern für einen guten Zweck!"
+    title = "Der Northeimer Stadtball am Samstag 11. Februar 2017"
+    subtitle = "Am 11. Februar 2017 wird die Tradition der großen Bälle fortgeführt. Tanzen und feiern für einen guten Zweck!"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "Fantasy Eventband"
-      description = "Das Organisationsteam konnte wieder die fantasy eventband aus Waldkappel gewinnen, die mit ihrer Musik für den richtigen Schwung sorgen werden"
-      url = "#"
+      icon = "fa-music"
+      title = "Fly by night"
+      description = "Dieses Jahr konnte das Organisationsteam die Band Fly by night für den Ball gewinnen, die mit ihrer Musik für den richtigen Schwung sorgen werden"
+      url = "http://showband-flybynight.de/index.php"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
+      icon = "fa-cutlery"
       title = "Catering"
-      description = "Das Catering übernimmt mannis Pommes-Eck."
-      url = "#"
+      description = "Das Catering übernimmt auch in diesem Jahr das Hotel Restaurant Sachsenross, Nörten-Hardenberg."
+      url = "http://www.sachsenross.com/"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      icon = "fa-sign-language"
       title = "Showeinlage"
-      description = "Auch dieses Jahr werden einige Showinlagen mit Edelnutten geboten"
+      description = "Auch dieses Jahr werden Showinlagen geboten. Lassen Sie sich überraschen."
       url = "#"
 
   # Portfolio section
@@ -130,7 +130,7 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Impressionen"
+    title = "Impressionen vom Ball 2016"
     subtitle = ""
 
     [params.portfolio.modal]
@@ -141,11 +141,11 @@ googleAnalytics = ""
 
 
     # About section
-  [params.about]
+	[params.about]
     enable = true
     title = "Wie? Wo? Wann?"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Und schon gehts los"
+    subtitle = ""
+    endpoint = ""
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -153,23 +153,23 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "1.jpg"
       date = "5. Februar 2016, 20.00 Uhr"
-      title = "Einlass: 19.00 Uhr "
-      description = ""
+      title = "Einlass: 19.00 Uhr"
+      description = "Stadthalle Northeim: Medenheimer Straße, 37154 Northeim"
 
     [[params.about.events]]
       img = "2.jpg"
       date = "Karten"
-      title = "Vorverkauf bei Grimpe / Eintritt 25€"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Eintritt 25€"
+      description = "Vorverkauf bei Buchhandlung Grimpe (Tel. 05551 / 91 26 91) in der Wieterstr. 19 / Northeim"
 
     [[params.about.events]]
       img = "3.jpg"
       date = "Outfit"
-      title = "Schlafanzug"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "Festlich!"
+      description = "Die Dame: elegant, kurz oder lang, der Herr: Anzug oder Smoking"
 
 	  [[params.about.events]]
-      img = "3.jpg"
+      img = "4.jpg"
       date = "Erlös"
       title = "Café Dialog / Förderverein des Bergbad"
       description = "Der Reinerlös des Northeimer Stadtballs vom 6. Februar 2015 kam zu gleichen Teilen dem Café Dialog und dem Förderverein des Bergbades zu Gute"
@@ -180,69 +180,137 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    center = true
+    title = "Organisationsteam"
+    subtitle = "Organisiert wird dieser in Northeim einzigartige Ball von einer ehrenamtlichen Initiativgruppe."
+    description = "Per eMail erreichen Sie die Initiative unter info@stadtball-northeim.de"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
+      name = "Dr. Christian Steigertahl"
+      position = ""      
+      scope = []
+	  
+	  [[params.team.members]]
+      img = "1.jpg"
+      name = "Dr. Mechthild Weskamp-Steigertahl"
+      position = ""      
+      scope = []
+	  
+	  [[params.team.members]]
+      img = "1.jpg"
+      name = "Dr. Andreas Hogrebe"
+      position = ""      
+      scope = []
+	  
+	  [[params.team.members]]
+      img = "1.jpg"
+      name = "Beate Hogrebe"
+      position = ""      
+      scope = []
+	  
+	  [[params.team.members]]
+      img = "1.jpg"
       name = "Dieter Willamowski"
-      position = "Lead Designer"
-      
-      scope = [
-        "Organisiert die Frauen"
-      ]
-      
+      position = ""      
+      scope = []
+	  
+	  [[params.team.members]]
+      img = "1.jpg"
+      name = "Nicole Schwuchow"
+      position = ""      
+      scope = []    
+	  
+	   [[params.team.members]]
+      img = "1.jpg"
+      name = "Daniela Haupt"
+      position = ""      
+      scope = []    
+	  
+	   [[params.team.members]]
+      img = "1.jpg"
+      name = "Volker Haupt"
+      position = ""      
+      scope = []    
+	  
+	   [[params.team.members]]
+      img = "1.jpg"
+      name = "Dr. Karsten Möller"
+      position = ""      
+      scope = []   
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+		[[params.team.members]]
+      img = "1.jpg"
+      name = "Birgit Möller-Kühn"
+      position = ""      
+      scope = []   	  
 
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    
 
   # Client section
     [params.clients_list]
       enable = true
       # Possibility to center items
-      #center = true
+      center = true
       # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+      title = "Sponsoren"
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.clients]]
-        logo = "envato.jpg"
+        logo = "2016_logo_bohne.jpg"
         link = "#"
 
       [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
+        logo = "2016_logo_fruchthof.jpg"
+        link = "#"     
 
       [[params.clients]]
-        logo = "themeforest.jpg"
+        logo = "2016_logo_REALIZE.jpg"
         link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
+		
+		[[params.clients]]
+        logo = "2016_logo_schnabel.jpg"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "2016_logo_tanzschule.jpg"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "Logo_heimert_color.jpg"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "KSN_logo.gif"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "Logo_Donna_kl.jpg"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "Logo_Dr_Kuehne_1.jpg"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "moebel_baeucke.jpg"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "THIMM.gif"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "Wilvorst.gif"
+        link = "#"
+		
+		[[params.clients]]
+        logo = "2016_logo_verpack.jpg"
         link = "#"
 
   # Contact section
@@ -280,10 +348,8 @@ googleAnalytics = ""
 
   # Footer section
   [params.footer]
-    enable = true
-    copyright = "Published under the Apache License 2.0."
-
-    
+    enable = false
+    copyright = "Published under the Apache License 2.0."    
 
     [[params.footer.quicklinks]]
       text = "Impressum"

@@ -9,10 +9,10 @@
     </div>
     <div class="row flexbox{{ if .Site.Params.team.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.team.members }}
-        <div class="col-sm-4 col">
+        <div class="col-sm-2 col">
           <div class="team-member">
             <img src="img/team/{{ .img }}" class="img-responsive img-circle" alt="">
-            <h3>{{ .name | markdownify }}</h3>
+            <h4>{{ .name | markdownify }}</h4>
 
             {{ with .position }}
             <h4>{{ . | markdownify }}</h4>

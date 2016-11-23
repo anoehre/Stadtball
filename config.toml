@@ -195,55 +195,55 @@ googleAnalytics = ""
       scope = []
 	  
 	  [[params.team.members]]
-      img = "1.jpg"
+      img = "2.jpg"
       name = "Dr. Mechthild Weskamp-Steigertahl"
       position = ""      
       scope = []
 	  
 	  [[params.team.members]]
-      img = "1.jpg"
+      img = "3.jpg"
       name = "Dr. Andreas Hogrebe"
       position = ""      
       scope = []
 	  
 	  [[params.team.members]]
-      img = "1.jpg"
+      img = "4.jpg"
       name = "Beate Hogrebe"
       position = ""      
       scope = []
 	  
 	  [[params.team.members]]
-      img = "1.jpg"
+      img = "5.jpg"
       name = "Dieter Willamowski"
       position = ""      
       scope = []
 	  
 	  [[params.team.members]]
-      img = "1.jpg"
+      img = "6.jpg"
       name = "Nicole Schwuchow"
       position = ""      
       scope = []    
 	  
 	   [[params.team.members]]
-      img = "1.jpg"
+      img = "7.jpg"
       name = "Daniela Haupt"
       position = ""      
       scope = []    
 	  
 	   [[params.team.members]]
-      img = "1.jpg"
+      img = "8.jpg"
       name = "Volker Haupt"
       position = ""      
       scope = []    
 	  
 	   [[params.team.members]]
-      img = "1.jpg"
+      img = "9.jpg"
       name = "Dr. Karsten Möller"
       position = ""      
       scope = []   
 
 		[[params.team.members]]
-      img = "1.jpg"
+      img = "10.jpg"
       name = "Birgit Möller-Kühn"
       position = ""      
       scope = []   	  
@@ -348,9 +348,9 @@ googleAnalytics = ""
 
   # Footer section
   [params.footer]
-    enable = false
+    enable = true
     copyright = "Published under the Apache License 2.0."    
 
     [[params.footer.quicklinks]]
       text = "Impressum"
-      link = "#"
+      link = "impressum.html"

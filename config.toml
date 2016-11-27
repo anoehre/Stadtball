@@ -66,7 +66,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Northeimer Stadtball"
+    brand = "8. Northeimer Stadtball"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Der Ball"
@@ -152,7 +152,7 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "5. Februar 2016, 20.00 Uhr"
+      date = "11. Februar 2017, 20.00 Uhr"
       title = "Einlass: 19.00 Uhr"
       description = "Stadthalle Northeim: Medenheimer Straße, 37154 Northeim"
 

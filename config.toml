@@ -158,9 +158,9 @@ googleAnalytics = ""
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "Karten"
-      title = "Eintritt 25€"
-      description = "Vorverkauf bei Buchhandlung Grimpe (Tel. 05551 / 91 26 91) in der Wieterstr. 19 / Northeim"
+      date = "Karten / Eintritt 25€"
+      title = "Der Vorverkauf startet am 05. Dezember 2016"
+      description = "Bei Buchhandlung Grimpe (Tel. 05551 / 912691) in der Wieterstr. 19 / Northeim"
 
     [[params.about.events]]
       img = "3.jpg"
@@ -263,55 +263,55 @@ googleAnalytics = ""
       # Suggestion: .svg in the size of 280px*80px looks good
       [[params.clients]]
         logo = "2016_logo_bohne.jpg"
-        link = "#"
+        link = "http://www.zahnarztpraxis-bohne.com/"
 
       [[params.clients]]
         logo = "2016_logo_fruchthof.jpg"
-        link = "#"     
+        link = "https://www.fruchthof-northeim.de/"     
 
       [[params.clients]]
         logo = "2016_logo_REALIZE.jpg"
-        link = "#"
+        link = "http://realize-northeim.de/realize/wordpress/"
 		
 		[[params.clients]]
         logo = "2016_logo_schnabel.jpg"
-        link = "#"
+        link = "http://mein.edeka.de/eh/de/hessenring/2287/mehrueberuns.jsp"
 		
 		[[params.clients]]
         logo = "2016_logo_tanzschule.jpg"
-        link = "#"
+        link = "http://www.tanzen-northeim.de/"
 		
 		[[params.clients]]
         logo = "Logo_heimert_color.jpg"
-        link = "#"
+        link = "https://www.printstrong.de/startseite_print.html"
 		
 		[[params.clients]]
         logo = "KSN_logo.gif"
-        link = "#"
+        link = "https://www.ksn-northeim.de"
 		
 		[[params.clients]]
         logo = "Logo_Donna_kl.jpg"
-        link = "#"
+        link = "http://www.donna-northeim.de/"
 		
 		[[params.clients]]
         logo = "Logo_Dr_Kuehne_1.jpg"
-        link = "#"
+        link = "http://www.dr-roy-kuehne.de/"
 		
 		[[params.clients]]
         logo = "moebel_baeucke.jpg"
-        link = "#"
+        link = "http://www.baeucke.de/"
 		
 		[[params.clients]]
         logo = "THIMM.gif"
-        link = "#"
+        link = "http://www.thimm.de/"
 		
 		[[params.clients]]
         logo = "Wilvorst.gif"
-        link = "#"
+        link = "http://www.wilvorst.de/home.html"
 		
 		[[params.clients]]
         logo = "2016_logo_verpack.jpg"
-        link = "#"
+        link = "http://www.ett1.de/home/"
 
   # Contact section
   [params.contact]

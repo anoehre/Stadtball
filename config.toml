@@ -351,6 +351,4 @@ googleAnalytics = "UA-88463721-1"
     enable = true
     copyright = "Published under the Apache License 2.0."    
 
-    [[params.footer.quicklinks]]
-      text = "Impressum"
-      link = "impressum"
+

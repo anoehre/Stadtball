@@ -8,7 +8,9 @@
   <title>{{ .Site.Title }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
   <link href="{{ .Site.BaseURL }}css/bootstrap-v3.3.7/bootstrap.min.css" rel="stylesheet">
-  <link href="{{ .Site.BaseURL }}css/agency.css" rel="stylesheet">
+  <link href="{{ .Site.BaseURL }}css/agency.css" rel="stylesheet">  
+  <link href="{{ .Site.BaseURL }}sweetAlert/sweetalert.css" rel="stylesheet">
+  
 
   {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
@@ -29,5 +31,6 @@
   {{ "<!--[if lt IE 9]>" | safeHTML }}
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  
   {{ "<![endif]-->" | safeHTML }}
 </head>

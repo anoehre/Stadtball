@@ -114,7 +114,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #fed136;
-    background-color: #fff;
+    background-color: #fed136;
 }
 
 .btn-xl {
@@ -177,14 +177,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     /*color: #fed136;*/
-	color: #ffffff;
+	color: #fed136;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #ffffff;
 }
 
 .navbar-brand>img {
@@ -232,13 +232,13 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #fed136;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -314,7 +314,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-	color : #ffffff;
+	color : #fed136;
 	margin-top: 125px;
     margin-bottom: 125px;
     /*text-transform: uppercase;*/
@@ -333,7 +333,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-		color : #ffffff;
+		color : #fed136;
 		text-shadow: 2px 2px 4px #000000;
         margin-bottom: 5px;
         /*font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/

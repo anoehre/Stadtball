@@ -10,10 +10,11 @@
     <div class="row">
 
       {{ range .Site.Data.projects }}
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-12 col-sm-12 portfolio-item">
 		
 		 <!-- <href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal"> -->
-          <a class="portfolio-link" data-toggle="modal">
+		 
+          <a class="portfolio-link" data-toggle="modal" href="{{ .clientLink }}" target="_blank" rel="noopener noreferrer">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fa fa-plus fa-3x"></i>

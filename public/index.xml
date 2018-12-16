@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Northeimer Stadtball</title>
-    <link>https://anoehre.github.io/Stadtball/index.xml</link>
+    <link>https://anoehre.github.io/Stadtball/</link>
     <description>Recent content on Northeimer Stadtball</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Dec 2016 10:48:25 +0100</lastBuildDate>
-    <atom:link href="https://anoehre.github.io/Stadtball/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://anoehre.github.io/Stadtball/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>impressum</title>
@@ -15,8 +17,7 @@
       <pubDate>Mon, 05 Dec 2016 10:48:25 +0100</pubDate>
       
       <guid>https://anoehre.github.io/Stadtball/impressum/</guid>
-      <description>&lt;p&gt;Hier ein Impressum&lt;/p&gt;
-</description>
+      <description>Hier ein Impressum</description>
     </item>
     
   </channel>

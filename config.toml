@@ -66,7 +66,7 @@ googleAnalytics = "UA-88463721-1"
 
   # Navigation
   [params.navigation]
-    brand = "9. Northeimer Stadtball"
+    brand = "10. Northeimer Stadtball"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Der Ball"
@@ -100,8 +100,8 @@ googleAnalytics = "UA-88463721-1"
   # Services section
   [params.services]
     enable = true
-    title = "Der Northeimer Stadtball am Samstag 24. Februar 2018"
-    subtitle = "Am 24. Februar 2018 wird die Tradition der großen Bälle fortgeführt. Tanzen und feiern für einen guten Zweck!"
+    title = "Der Northeimer Stadtball am Samstag 09. Februar 2019"
+    subtitle = "Am 09. Februar 2019 wird die Tradition der großen Bälle fortgeführt. Tanzen und feiern für einen guten Zweck!"
 
     [[params.services.row]]
 
@@ -130,7 +130,7 @@ googleAnalytics = "UA-88463721-1"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Impressionen vom Ball 2017"
+    title = "Impressionen vom Ball 2018 in der HNA"
     subtitle = ""
 
     [params.portfolio.modal]
@@ -152,15 +152,15 @@ googleAnalytics = "UA-88463721-1"
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "24. Februar 2018, 20.00 Uhr"
+      date = "09. Februar 2019, 20.00 Uhr"
       title = "Einlass: 19.00 Uhr"
       description = "Stadthalle Northeim: Medenheimer Straße, 37154 Northeim"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "Karten / Eintritt 30€"
-      title = "Der Vorverkauf startet am 03. Dezember 2017"
-      description = "Bei Buchhandlung Grimpe (Tel. 05551 / 912691) in der Wieterstr. 19 / Northeim"
+      date = "Eintritt 30€ (ermäßigt 15€)"
+      title = "Der Vorverkauf startet am 03. Dezember 2018"
+      description = "Bei Buchhandlung Grimpe (Tel. 05551 / 912691) in der Wieterstr. 19, Northeim. Bis zum 25. Lebensjahr gilt der ermäßigte Eintrittspreis (Nachweis per Ausweis)."
 
     [[params.about.events]]
       img = "3.jpg"
@@ -172,7 +172,7 @@ googleAnalytics = "UA-88463721-1"
       img = "4.jpg"
       date = "Erlös"
       title = "Tagestreff Oase e. V. / Jugenddienst des Kirchenkreises Leine-Solling"
-      description = "Der Reinerlös des Northeimer Stadtballs 2017 kam zu gleichen Teilen dem Tagestreff Oase e. V. und dem Jugenddienst des Kirchenkreises Leine-Solling zu Gute: Jeweils 500€"
+      description = "Der Reinerlös des Northeimer Stadtballs 2018 kam zu gleichen Teilen dem Tagestreff Oase e. V. und dem Jugenddienst des Kirchenkreises Leine-Solling zu Gute: Jeweils 500€"
 
     
 
@@ -268,11 +268,7 @@ googleAnalytics = "UA-88463721-1"
       [[params.clients]]
         logo = "2016_logo_fruchthof.jpg"
         link = "https://www.fruchthof-northeim.de/"     
-
-      [[params.clients]]
-        logo = "2016_logo_REALIZE.jpg"
-        link = "http://realize-northeim.de/realize/wordpress/"
-		
+      	
 		[[params.clients]]
         logo = "2016_logo_schnabel.jpg"
         link = "http://mein.edeka.de/eh/de/hessenring/2287/mehrueberuns.jsp"
@@ -307,11 +303,20 @@ googleAnalytics = "UA-88463721-1"
 		
 		[[params.clients]]
         logo = "Wilvorst.gif"
-        link = "http://www.wilvorst.de/home.html"
+        link = "http://www.wilvorst.de/home.html"	
 		
 		[[params.clients]]
-        logo = "2016_logo_verpack.jpg"
-        link = "http://www.ett1.de/home/"
+        logo = "Logo_TopStrap.jpg"
+        link = "https://topstrap.de/"	
+		
+		[[params.clients]]
+        logo = "Logo_UllaFreund.jpg"
+        link = "http://www.cosmetic-ulla-freund.de/"	
+		
+		[[params.clients]]
+        logo = "Logo_Katlenburger.jpg"
+        link = "https://katlenburger.de/de/startseite/"	
+		
 
   # Contact section
   [params.contact]

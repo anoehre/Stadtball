@@ -171,8 +171,8 @@ googleAnalytics = "UA-88463721-1"
 	  [[params.about.events]]
       img = "4.jpg"
       date = "Erlös"
-      title = "Tagestreff Oase e. V. / Jugenddienst des Kirchenkreises Leine-Solling"
-      description = "Der Reinerlös des Northeimer Stadtballs 2018 kam zu gleichen Teilen dem Tagestreff Oase e. V. und dem Jugenddienst des Kirchenkreises Leine-Solling zu Gute: Jeweils 500€"
+      title = "Tafel und Lebenshilfe Northeim"
+      description = "Der Reinerlös des Northeimer Stadtballs 2018 kam zu gleichen Teilen der 'Tafel Northeim' und der 'Lebenshilfe Northeim' zu Gute: Jeweils 600€"
 
     
 
@@ -316,6 +316,10 @@ googleAnalytics = "UA-88463721-1"
 		[[params.clients]]
         logo = "Logo_Katlenburger.jpg"
         link = "https://katlenburger.de/de/startseite/"	
+		
+		[[params.clients]]
+        logo = "Logo_Micheletti.jpg"
+        link = "https://bajohr.de/bajohr/micheletti-optik-northeim/"	
 		
 
   # Contact section
